@@ -177,7 +177,7 @@ main {
 /* ---------------------- stili footer -------------------------- */
 footer {
     background-color: black;
-    min-height: 60px;
+    min-height: 80px;
     color: white;
     display: flex;
     justify-content: center;
@@ -192,7 +192,46 @@ footer {
     width: 50%;
 }
 
+#footer-informations {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#footer-link-container {
+    padding-top: 5px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+#footer-link-container a {
+    margin-right: 10px;
+}
+
+
 #right-box {
     width: 50%;
 }
 
+#social-footer-section {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+
+#social-icons {
+    padding-top: 7px;
+}
+
+#social-icons > a {
+    padding-left: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
