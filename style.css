@@ -18,6 +18,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 #header-container {
@@ -112,6 +113,19 @@ main {
     width: 100%;
     height: auto;
 }
+
+.picture-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.swap-pic {
+    position: absolute;
+    top: 0;
+}
+
+
+
 
 
 .lable {
