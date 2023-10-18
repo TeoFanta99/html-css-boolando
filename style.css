@@ -79,18 +79,12 @@ header a {
 main {
     display: flex;
     padding-bottom: 40px;
-    /* DEBUG */
-    background-color: rgb(0, 255, 68);
-    min-height: 600px;
     justify-content: center;
 }
 
 #clothes-container {
     width: 80%;
     margin-top: 60px;
-    /* DEBUG */
-    min-height: 400px;
-    background-color: red;
 }
 
 .clothes-row {
@@ -107,14 +101,78 @@ main {
 
 .card-and-written {
     width: calc((100% / 3) - 10px);
-    background-color: gray;
+    background-color: rgb(255, 255, 0);
     /* DEBUG */
-    min-height: 350px;
+    min-height: 410px;
+}
+
+.inside-the-card {
+    display: flex;
+    position: relative;
+}
+
+.inside-the-card img {
+    width: 100%;
+    height: auto;
 }
 
 
+.lable {
+    position: absolute;
+    bottom: 30px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.red-lable {
+    background-color: red;
+    padding: 1px 5px;
+}
+
+.sostenibile {
+    background-color: green;
+    padding: 1px 5px;
+}
+
+.add-to-fav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.add-to-fav:hover {
+    color: red;
+}
 
 
+.marca {
+    color: gray;
+    font-size: 11px;
+    display: block;
+}
+
+.title {
+    color: black;
+    font-size: 13px;
+    display: block;
+}
+
+.final-price {
+    color: red;
+    font-size: 11px;
+}
+
+.old-price {
+    color: rgb(45, 44, 44);
+    font-size: 11px;
+    text-decoration: line-through;
+}
 
 
 
