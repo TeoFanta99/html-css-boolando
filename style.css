@@ -13,9 +13,42 @@
 
 
 /* ---------------------- stili header -------------------------- */
+header {
+    background-color: #FF6901;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    min-height: 100px;
+    
+}
 
+#header-container {
+    display: flex;
+    min-height: 80px;
+    width: 80%;
 
+}
 
+.header-style {
+    color: white;
+    font-size: 15px;
+}
+
+#choose-gender {
+    width: 20%;
+    background-color: aqua;
+}
+
+#logo {
+    width: 60%;
+    background-color: beige;
+}
+
+#personal-area {
+    width: 20%;
+    background-color: green;
+}
 
 
 
