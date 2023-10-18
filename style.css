@@ -55,6 +55,7 @@ header {
 /* ------------------------ stili main -------------------------- */
 main {
     display: flex;
+    padding-bottom: 40px;
     /* DEBUG */
     background-color: rgb(0, 255, 68);
     min-height: 600px;
@@ -75,9 +76,7 @@ main {
     justify-content: space-between;
 }
 
-#first-row {
 
-}
 
 #second-row {
     padding-top: 10px;
@@ -98,3 +97,24 @@ main {
 
 
 /* ---------------------- stili footer -------------------------- */
+footer {
+    background-color: black;
+    min-height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-container {
+    display: flex;
+    width: 80%;
+}
+
+#left-box {
+    width: 50%;
+}
+
+#right-box {
+    width: 50%;
+}
+
