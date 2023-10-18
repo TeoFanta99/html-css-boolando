@@ -96,14 +96,11 @@ main {
 
 
 #second-row {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .card-and-written {
     width: calc((100% / 3) - 10px);
-    background-color: rgb(255, 255, 0);
-    /* DEBUG */
-    min-height: 410px;
 }
 
 .inside-the-card {
