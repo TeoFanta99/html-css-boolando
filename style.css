@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: center;
     /* DEBUG */
-    min-height: 100px;
+    min-height: 60px;
     
 }
 
@@ -53,6 +53,43 @@ header {
 
 
 /* ------------------------ stili main -------------------------- */
+main {
+    display: flex;
+    /* DEBUG */
+    background-color: rgb(0, 255, 68);
+    min-height: 600px;
+    justify-content: center;
+}
+
+#clothes-container {
+    width: 80%;
+    margin-top: 60px;
+    /* DEBUG */
+    min-height: 400px;
+    background-color: red;
+}
+
+.clothes-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-row {
+
+}
+
+#second-row {
+    padding-top: 10px;
+}
+
+.card-and-written {
+    width: calc((100% / 3) - 10px);
+    background-color: gray;
+    /* DEBUG */
+    min-height: 350px;
+}
+
 
 
 
