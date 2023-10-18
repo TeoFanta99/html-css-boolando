@@ -18,16 +18,13 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    /* DEBUG */
-    min-height: 60px;
-    
 }
 
 #header-container {
     display: flex;
-    min-height: 80px;
+    min-height: 50px;
     width: 80%;
-
+    align-items: center;
 }
 
 .header-style {
@@ -35,20 +32,46 @@ header {
     font-size: 15px;
 }
 
+
+
 #choose-gender {
-    width: 20%;
-    background-color: aqua;
+    width: 22%;
+}
+
+#choose-gender > ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+#choose-gender li {
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 #logo {
-    width: 60%;
-    background-color: beige;
+    width: 56%;
+    text-align: center;
+}
+
+#logo > img {
+    width: 120px;
 }
 
 #personal-area {
-    width: 20%;
-    background-color: green;
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
 }
+
+#personal-area span {
+    font-size: 15px;
+}
+
 
 
 
